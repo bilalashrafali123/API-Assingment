@@ -10,10 +10,9 @@ console.log(res.data);
 res.data.map((item)=>{
        
 div.innerHTML += `<div class="main-card">
-                  <h2>Title : ${item.title}</h2>
-                  <img width ="150" src="${item.image}"  alt="products" /> 
-                  <h2>price : ${item.price}</h2>
-                  <hr/>
+                  <h5>Title : ${item.title}</h5>
+                  <img width ="100" height="100" src="${item.image}"  alt="products" /> 
+                  <h5>price : ${item.price}</h5><br/>
                   </div>
 `
 
